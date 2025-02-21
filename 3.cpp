@@ -63,7 +63,7 @@ int main() {
     std::cout << "Налоги: " << tax<< "руб.\n";
     std::cout << "Расходы на ремонт машины: " << repair_car << "руб.\n";
     std::cout << "Итого доход: " << net_profit << "руб.\n";
-    
+    std::cout << "\n";
     std::cout << "Задача 2. Обмен местами\n";
 
     int a = 42;
@@ -75,7 +75,7 @@ int main() {
 
     std::cout << "a: " << b << "\n"; /* На экран будет выведено 153 */
     std::cout << "b: " << a << "\n"; /* На экран будет выведено 42 */
-    
+    std::cout << "\n";
     std::cout << "Задача 3. Злостные вредители\n";
      int growing = 50;
      int decreases = 20;
@@ -83,7 +83,7 @@ int main() {
 
      height = (growing - decreases) * 2 + growing;
      std::cout << "высота бамбука в середине третьего дня будет: " << height << "\n";
-    
+    std::cout << "\n";
     std::cout << "Задача 4 (дополнительная). Повышаем градус сложности*\n";
     int a = 5;
     int b = 10;
